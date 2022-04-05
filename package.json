@@ -1,13 +1,13 @@
 {
-	"name": "unicorn-fun",
+	"name": "node-red-contrib-color-changer",
 	"version": "0.0.0",
 	"description": "My awesome module",
 	"license": "MIT",
-	"repository": "YOUR-GITHUB-USERNAME/unicorn-fun",
+	"repository": "nstankov-bg/node-red-contrib-color-changer",
 	"author": {
-		"name": "YOUR NAME",
-		"email": "YOUR EMAIL",
-		"url": "YOUR WEBSITE"
+		"name": "Nikolay Stankov",
+		"email": "me@nstankov.com",
+		"url": "https://nstankov.com"
 	},
 	"type": "module",
 	"exports": "./index.js",

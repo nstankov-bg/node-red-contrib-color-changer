@@ -24,20 +24,20 @@ There's also a [Yeoman generator](https://github.com/sindresorhus/generator-nm).
 
 ---
 
-# unicorn-fun
+# node-red-contrib-color-changer
 
 > My awesome module
 
 ## Install
 
 ```sh
-npm install unicorn-fun
+npm install node-red-contrib-color-changer
 ```
 
 ## Usage
 
 ```js
-import unicornFun from 'unicorn-fun';
+import unicornFun from 'node-red-contrib-color-changer';
 
 unicornFun('unicorns');
 //=> 'unicorns & rainbows'

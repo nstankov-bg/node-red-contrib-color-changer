@@ -1,7 +1,8 @@
-export default function unicornFun(input, {postfix = 'rainbows'} = {}) {
-	if (typeof input !== 'string') {
-		throw new TypeError(`Expected a string, got ${typeof input}`);
+module.exports = function (RED) {
+	function colorPicker(config){
+		let context = this.context();
+		let node = this;
+		RED.nodes.createNode(this, config);
 	}
-
-	return `${input} & ${postfix}`;
+	RED.nodes.registerType("color-picker", colorPicker);
 }
